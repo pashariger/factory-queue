@@ -48,7 +48,7 @@ var Q = require('q');
 var config = {
 	total: 765, 		// number of items the mock API has
 	fetchDelay: 300, 	// mock time it takes to make API call
-	processDelay: 10, 	// mock time it takes to process and store data in our database
+	processDelay: 10 	// mock time it takes to process and store data in our database
 };
 
 /* mock API call that feeds us results */
@@ -80,6 +80,8 @@ function doSomethingWithData(data, callback){
 function fetch(limit, offset, _fetchOptions){
 	var deferred = Q.defer();
 	
+	// write your business logic for fetching data here
+	// Ex:
 	callAPIforData(limit, offset, function(result){
 		deferred.resolve(result);
 	})
@@ -91,6 +93,8 @@ function fetch(limit, offset, _fetchOptions){
 function process(item){
 	var deferred = Q.defer();
 	
+	// write your business logic for processing a single queue element here
+	// Ex:
 	doSomethingWithData(item, function(result){
 		deferred.resolve(result);
 	})
