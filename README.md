@@ -1,5 +1,5 @@
 # factory-queue
-Useful queue implementation that helps you fetch and process data.
+Useful queue implementation that helps you fetch and process data. Implemented using deferreds (q).
 
 `YOU:` I need to grab 100s of pages of objects from an API, convert to my data format and store in my DB.
 
