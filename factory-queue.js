@@ -13,7 +13,7 @@ var Q = require('q');
 	@param fetchFunc - returns an array of items from a source
 		@param limit - limit of items to fetch 
 		@param offset - current offset
-		@_fetchOptions - (see below)
+		@param _fetchOptions - (see below)
 
 	@param processFunc - given an item performs an operation on it and returns status
 		@param item - item to be processed
