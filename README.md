@@ -24,9 +24,14 @@ Useful queue implementation that helps you fetch and process data. Implemented u
 #### FIRST RELEASE WARNING
 There will be bugs.
 
+#### HOW TO RUN
+	npm install
+	node example.js
+
 #### TODO
 * Documentation
 * Tests
 * Examples
 
 Please see example.js for more info.
+
