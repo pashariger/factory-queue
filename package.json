@@ -1,0 +1,23 @@
+{
+	"name": "factory-queue",
+	"version": "0.0.1",
+	"description": "Useful queue implementation that helps you fetch and process data",
+	"engines": {
+		"node": ">=0.12.0"
+	},
+	"author": "Pasha Riger <pasha@minerapp.com>",
+	"dependencies": {
+		"underscore": "1.8.0",
+		"q": "1.1.2"	
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/pashariger/factory-queue.git"
+	},
+	"licenses": [
+		{
+			"type": "MIT License",
+			"url": "http://www.opensource.org/licenses/mit-license.php"
+		}
+	]
+}
