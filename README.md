@@ -1,4 +1,10 @@
 # factory-queue
+
+### A cautionary tale
+Before I discovered async... I used this. So young. So foolish.
+
+### Bored? Read on:
+
 Useful queue implementation that helps you fetch and process data. Implemented using deferreds (q).
 
 `YOU:` I need to grab 100s of pages of objects from an API, convert to my data format and store in my DB.
